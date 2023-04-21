@@ -18,10 +18,9 @@ docker network create tn-ergo-node
 docker volume create tn_ergo_node
 ```
 
-Build + start node container temporarily to generate API Key Hash:
+Start node container temporarily to generate API Key Hash:
 
 ```console
-docker compose build --no-cache
 docker compose up -d
 ```
 
