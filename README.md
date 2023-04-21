@@ -1,6 +1,14 @@
 # Easy Testnet Ergo Node Setup
 
-Prerequisites: make sure git, nano?, docker, and docker compose plugin are installed.
+Prerequisites: make sure git, curl, nano, docker, and docker compose plugin are installed.
+If you don't know how to install docker: https://docs.docker.com/engine/install/ubuntu/
+
+The commands below assume you added your current user in the docker group as per instructions here:
+https://docs.docker.com/engine/install/linux-postinstall/
+
+```console
+sudo usermod -aG docker $USER
+```
 
 Clone this repo:
 
